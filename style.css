@@ -1,3 +1,14 @@
 body {
-    background-image: url(background.jpg);
+    background-image: url(bliss\ 4k.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project {
+    text-align:left;
+    padding:5px;
+    background:#04162b;
+    color:white;
+    width: 300px;
+    border-radius: 25px;
 }
