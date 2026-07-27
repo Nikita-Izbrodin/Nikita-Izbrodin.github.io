@@ -1,14 +1,67 @@
 body {
-    background-image: url(bliss\ 4k.png);
+    background-image: url(images/CometR3_Orion.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
 
 .project {
-    text-align:left;
-    padding:5px;
-    background:#04162b;
-    color:white;
-    width: 300px;
+    text-align:center;
+    background: white;
+    color:black;
     border-radius: 25px;
+}
+
+.project:hover {
+    background-color: rgb(161, 209, 209);
+    transition: background-color 0.3s;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+.container div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 1px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.icon {
+  display: inline-flex;
+    height: 150px;
+    width: 150px;
+    background: white;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+header {
+    display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 25px;
+}
+
+.about-me {
+  background: white;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+.about-me p {
+  font-size: 20px;
 }
