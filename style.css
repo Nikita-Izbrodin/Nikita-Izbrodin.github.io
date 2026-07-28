@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/CometR3_Orion.jpg);
+    background-image: url(images/red\ space.jpg);
     background-repeat: no-repeat;
     background-size: auto;
 }
@@ -51,13 +51,19 @@ body {
     animation: fadeIn 0.5s;
 }
 
+.icon:hover {
+    background-color: rgb(161, 209, 209);
+    transition: background-color 0.3s;
+}
+
+
 header {
     display: flex;
   grid-template-columns: auto auto auto;
   gap: 10px;
   padding: 10px;
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   border-radius: 25px;
 }
 
