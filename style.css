@@ -30,6 +30,12 @@ body {
   font-size: 15px;
   text-align: center;
   border-radius: 25px;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .icon {
@@ -42,6 +48,7 @@ body {
     align-items: center;
     margin-top: 10px;
     border: 1px solid black;
+    animation: fadeIn 0.5s;
 }
 
 header {
@@ -60,6 +67,7 @@ header {
   padding: 10px;
   border-radius: 25px;
   margin-top: 10px;
+  animation: fadeIn 0.5s;
 }
 
 .about-me p {
